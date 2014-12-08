@@ -1,6 +1,6 @@
-'' || eval('begin = 0'); _ = nil
+''||eval('begin=undefined');_=nil
 =begin
-; eval(Opal.compile('=begin\n' + heredoc(function () {/*
+;eval(Opal.compile('=begin\n'+heredoc(function(){/*
 =end
 
 # https://github.com/opal/opal/issues/661
